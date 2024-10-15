@@ -15,12 +15,12 @@ Create a `Student` class with the following attributes and methods
 | `_name` | `string` | **Required**. Students name | N/A |
 | `_age` | `int` |  Students age | 13 |
 | `_grade` | `string` | Students current grade | "12th" |
-| `get_name` | `getter` | **Required** Returns students name | N/A|
-| `set_name` | `setter` | **Required** Updates the students name only if the student name <br/> is 3 characters or more, holds no spaces or special characters,<br/> and is in title format | N/A |
-|`get_age` | `getter` | **Required** Returns students age | N/A |
-| `set_age`| `setter` | **Required** Updates the students age only if the age value is an int <br/>type, is greater than 11, and is lower than 18 | N/A |
-| `get_grade` | `getter` | **Required** Returns students grade | N/A |
-|`set_grade` | `setter` | **Required** Updates a students grade only if the grade falls within <br/> 9th - 12th grade and the value is formatted with "th" <br/>next to the numbered grade | N/A |
+| `name` | `getter` | **Required** Returns students name | N/A|
+| `name` | `setter` | **Required** Updates the students name only if the student name <br/> is 3 characters or more, holds no spaces or special characters,<br/> and is in title format | N/A |
+|`age` | `getter` | **Required** Returns students age | N/A |
+| `age`| `setter` | **Required** Updates the students age only if the age value is an int <br/>type, is greater than 11, and is lower than 18 | N/A |
+| `grade` | `getter` | **Required** Returns students grade | N/A |
+|`grade` | `setter` | **Required** Updates a students grade only if the grade falls within <br/> 9th - 12th grade and the value is formatted with "th" <br/>next to the numbered grade | N/A |
 
 | Methods | Parameters | Returns |
 |:--------|:-----------|:-------|
